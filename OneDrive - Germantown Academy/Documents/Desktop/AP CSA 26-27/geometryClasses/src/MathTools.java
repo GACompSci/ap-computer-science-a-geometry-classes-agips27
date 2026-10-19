@@ -19,15 +19,14 @@ public class MathTools {
    }
    
    public static double distance(Point a, Point b) {
-    int dx = b.getX() - a.getX();
-    int dy = b.getY() - a.getY();
-
-    return Math.sqrt(dx * dx + dy * dy);
+    double dx = b.getX() - a.getX();
+    double dy = b.getY() - a.getY();
+    
+    return round(Math.sqrt(dx * dx + dy * dy), 2);
    }
    
    public static double slope(Point a, Point b) {
-    return (double) (b.getY() - a.getY())
-           / (b.getX() - a.getX());
+    return (double) (b.getY() - a.getY())/ (b.getX() - a.getX());
    }
     
 
