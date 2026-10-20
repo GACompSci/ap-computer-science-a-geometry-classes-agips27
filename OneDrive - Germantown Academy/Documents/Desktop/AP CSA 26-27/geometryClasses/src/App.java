@@ -13,7 +13,7 @@ public class App {
         Circle one = new Circle(5, a);
         System.out.println(one.getRadius());
         System.out.println(one.getArea());
-
+        System.out.println(a.getX());
 
 
         
