@@ -9,6 +9,14 @@ public class Rectangle {
     width=w;
    }
 
+   public int getLength(){
+    return length;
+   }
+
+   public int getWidth(){
+    return width;
+   }
+
    public double getArea(){
     return MathTools.round((double)(length *width), 2);
    }

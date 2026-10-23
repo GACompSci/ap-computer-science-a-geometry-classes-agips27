@@ -18,7 +18,7 @@ public class Triangle {
         int y3=three.getY();
 
         double area = (double)(0.5*(x1*(y2-y3)+x2*(y3-y1)+x3*(y1-y2)));
-        return MathTools.round(area, 2);
+        return MathTools.round(Math.abs(area), 2);
 
     }
 }
